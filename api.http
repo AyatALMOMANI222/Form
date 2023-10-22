@@ -1,0 +1,18 @@
+GET http://localhost:3001/form HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:3001/form HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" :"name",
+    "age":"age",
+    "nationality" :"nationality"
+
+}
+###
+DELETE http://localhost:3001/form/${id} HTTP/1.1
+Content-Type: application/json
+
+###

@@ -1,0 +1,49 @@
+.input-container {
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  /* تصميم الإدخال نفسه */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* تصميم عند التركيز (عند النقر على الإدخال) */
+  input:focus {
+    outline: none; /* لإزالة الحدود الافتراضية عند التركيز */
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+  }
+  
+  /* تصميم نص الخطأ (اختياري) */
+  .error-text {
+    color: red;
+    font-size: 12px;
+  }
+  button {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #9a9393;
+
+  }
+  
+  /* تصميم الزر عند تحويل الماوس إليه */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* تصميم زر ثانوي (مثل زر الإلغاء) */
+  
